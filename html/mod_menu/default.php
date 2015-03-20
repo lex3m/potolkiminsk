@@ -22,7 +22,9 @@ defined('_JEXEC') or die;
 			echo ' id="' . $tag . '"';
 		}
 	?>>
-//FUCK ALL!!!
+//FUCK ALL!!! polnoe shit
+// NIXRENA NE VIDNO
+
 	<?php
 	foreach ($list as $i => &$item)
 	{
