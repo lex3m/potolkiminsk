@@ -1,0 +1,908 @@
+body, p, a, li, h2, h4, h5, input, select, span {
+    font-family: Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+}
+h3 {
+	font-size: 38px;
+	text-align: center;
+	line-height: 38px;
+	font-family: 'Philosopher', sans-serif;
+	color: #000;
+}
+h4 {
+	font-size: 20px;
+	color: #8b5a46;
+}
+/* header ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.header {
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+}
+.header_t {
+	border-bottom: 1px solid #87939d;
+	overflow: hidden;
+}
+.logo_a {
+	display: block;
+}
+.logo_top img {
+	margin: 0 auto;
+	display: block;
+}
+.telephone {
+	display: table;
+    height: 120px;
+}
+.telephone1 {
+	display: table-cell;
+    vertical-align: middle;
+}
+.telephone1 p {
+	color: #87939d;
+    font-size: 22px;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+.vr_m_p {
+	display: table;
+    height: 120px;
+}
+.vr_m_p1 {
+	display: table-cell;
+    vertical-align: middle;
+}
+.vr_m_p1 p {
+	color: #f40017;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+.vr_m_p1 span {
+    font-size: 34px;
+	font-family: 'Philosopher', sans-serif;
+}
+.top_ss {
+	display: table;
+    height: 120px;
+}
+.top_ss1 {
+	display: table-cell;
+    vertical-align: middle;
+}
+.arg {
+	background: url("../images/foto_vzam.jpg") no-repeat 0 center;
+	padding-left: 100px;
+	height: 80px;
+	padding-top: 8px;
+	width: 300px;
+	float: right;
+}
+.top_ss1 a {
+	color: #87939d;
+    font-size: 16px;
+    line-height: 18px;
+	text-decoration: underline;
+	display: block;
+}
+.top_ss1 a:hover {
+	color: #000;
+}
+.marg_bott_a {
+	margin-bottom: 10px;
+}
+/* end header +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* Menu top +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.navbar {
+	margin-bottom: 0;
+}
+.navbar-default {
+    background-color: #fff;
+    border: none;
+}
+.navbar-default a {
+	font-size: 16px;
+	color: #000 !important;
+}
+.navbar div ul.nav.navbar-nav li.dropdown ul.dropdown-menu {
+	display: none;
+}
+.navbar div ul.nav.navbar-nav li.dropdown:hover ul.dropdown-menu {
+	display: block;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #e7ecee;
+}
+.navbar-nav > li > a:hover {
+    background-color: #e7ecee !important;
+}
+.ss10 {
+    background: url("../images/kvadrat.jpg") no-repeat scroll 15px center;
+    padding-left: 34px !important;
+}
+/* end Menu top +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* Слайдер +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.slider_top {
+	width: 100%;
+	position: relative;
+}
+.slider {
+	width: 100%;
+}
+.slider img {
+	margin: 0 auto;
+	width: 100%;
+}
+/* end Слайдер +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* Timer ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.timer {
+    border-radius: 6px;
+    padding: 2px 15px 12px;
+    position: absolute;
+    right: 100px;
+    top: 15px;
+}
+.timer  h5 {
+    color: #fff;
+    font-size: 27px;
+	font-family: "Philosopher",sans-serif;
+	margin-bottom: 20px;
+}
+.timer_wrap {
+    background: url("../images/bg_timer.png") no-repeat scroll 0 0;
+	overflow: hidden;
+	padding-top: 7px;
+}
+.day, .hour, .min, .sec {
+	float: left;
+}
+.day, .hour, .min {
+	margin-right: 16px;
+}
+.timer_wrap div p {
+    float: left;
+    font-size: 36px;
+    margin-right: 2px;
+    text-align: center;
+    width: 31px;
+	line-height: 42px;
+}
+.time_imya {
+    text-align: center;
+	clear: both;
+}
+.time_imya span {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* end Timer ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* Виды потолков и т.д.++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.ssylki4_glav {
+	margin-top: -25px;
+	overflow: hidden;
+}
+.ssylki4 a {
+	text-align: center;
+	display: block;
+	font-size: 28px;
+	color: #fff;
+	font-family: 'Philosopher', sans-serif;
+	padding: 18px 0 18px 40px;
+	-moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+}
+.ssylki4 a:hover {
+	color: #000;
+	text-decoration: none;
+}
+.vid_pot {
+	background: url("../images/icon1.png") no-repeat center 0;
+}
+.vyb_cv {
+	background: url("../images/icon2.png") no-repeat center 0;
+}
+.svet {
+	background: url("../images/icon3.png") no-repeat center 0;
+}
+.kalk11 {
+	background: url("../images/icon4.png") no-repeat center 0;
+}
+/* end Виды потолков и т.д. ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* Как мы работаем +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.kak_my_rabotaem {
+	overflow: hidden;
+	padding-bottom: 70px;
+}
+.kak_my_rabotaem h3 {
+	margin: 60px 0 40px 0;
+} 
+.kak_foto {
+	display: block;
+    margin: 0 auto;
+}
+/* end Как мы работаем +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* Преимущества работы с нами +++++++++++++++++++++++++++++++++++++ */
+.preim_rab {
+	background: url("../images/block1_fon.jpg") no-repeat center 0 #c4c8cf;
+	overflow: hidden;
+	width: 100%;
+	background-size: 100% auto;
+}
+.preim_rab h3 {
+	margin: 25px 0 25px 0;
+}
+.margin_row {
+    background: url("../images/bg_zebra.png") repeat-x scroll 0 bottom;
+    padding-bottom: 75px;
+}
+.preim_img {
+	position: absolute;
+}
+.preim_text {
+	position: relative;
+	width: 270px;
+	margin: 0 auto;
+	top: 70px;
+}
+.yache {
+	height: 250px;
+	margin-bottom: 30px;
+}
+.yache_1 {
+    background: url("../images/preim1.png") no-repeat scroll center 0;
+}
+.yache_2 {
+    background: url("../images/preim2.png") no-repeat scroll center 0;
+}
+.yache_3 {
+    background: url("../images/preim3.png") no-repeat scroll center 0;
+}
+.yache_4 {
+    background: url("../images/preim4.png") no-repeat scroll center 0;
+}
+.yache_5 {
+    background: url("../images/preim5.png") no-repeat scroll center 0;
+}
+.yache_6 {
+    background: url("../images/preim6.png") no-repeat scroll center 0;
+}
+.yache_7 {
+    background: url("../images/preim7.png") no-repeat scroll center 0;
+}
+.yache_8 {
+    background: url("../images/preim8.png") no-repeat scroll center 0;
+}
+.preim_text span {
+	color: #f40017;
+    display: block;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+	margin-bottom: 15px;
+}
+.preim_text p {
+	color: #000;
+    display: block;
+    font-size: 15px;
+    line-height: 17px;
+}
+/* end Преимущества работы с нами +++++++++++++++++++++++++++++++++++++++++++++ */
+/* Форма +++++++++++++++++++++++++++++++++++++++++++++ */
+.sdel_zs {
+	overflow: hidden;
+	width: 100%;
+	padding-bottom: 75px;
+	background: url("../images/shahy.jpg") repeat-x scroll 0 bottom;
+}
+.sdel_zs h3 {
+	margin: 35px 0 35px 0;
+}
+.inp_name {
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+.inp_tel {
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+.butt_vz {
+	background: #e82a2c;
+    color: #fff;
+    font-size: 24px;
+    height: 40px;
+    text-transform: uppercase;
+    width: 100%;
+	font-family: 'Philosopher', sans-serif;
+	line-height: 24px;
+	border-color: #e82a2c;
+}
+/* end Форма +++++++++++++++++++++++++++++++++++++++++++++ */
+/* Большая статья +++++++++++++++++++++++++++++++++++++++++++++ */
+.big_block {
+	overflow: hidden;
+	width: 100%;
+	padding-bottom: 20px;
+}
+.big_block p {
+	font-size: 15px;
+	line-height: 17px;
+	margin-bottom: 0;
+	text-align: justify;
+}
+.block_left h3 {
+	text-align: left;
+	margin: 20px 0 20px 0;
+}
+.block_left img {
+	margin: 20px 10px 15px 0;
+	float: left;
+}
+.spisok {
+padding: 15px;
+}
+.spisok li {
+    background: url("../images/li_text.png") no-repeat scroll 0 6px;
+    line-height: 24px;
+    list-style: outside none none;
+    padding-left: 28px;
+}
+.min_block_left {
+	float: right;
+}
+.block_left span {
+	font-size: 20px;
+	color: #8b5a46;
+	margin: 20px 0 5px 0;
+	display: block;
+}
+.ss_a {
+	padding-top: 15px;
+}
+.block_left a {
+	background: #e82a2c;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-family: "Philosopher",sans-serif;
+    font-size: 24px;
+    height: 35px;
+    text-align: center;
+    width: 245px;
+	margin: 0 auto;
+}
+.block_left a:hover {
+    background: #8b5a46;
+	text-decoration: none;
+}
+.block_right h3 {
+	text-align: left;
+	margin: 20px 0 15px 0;
+}
+.stat_min1 {
+	overflow: hidden;
+	border-bottom: 1px solid #b8c5cc;
+	padding-bottom: 10px;
+}
+.stat_min_img {
+    display: block;
+    float: left;
+    margin-right: 30px;
+}
+.a_stat_min {
+    background: url("../images/str_ss.png") no-repeat scroll right 8px #8b5a46;
+    color: #fff;
+    display: block;
+    float: right;
+    font-size: 16px;
+    text-align: center;
+    width: 175px;
+	height: 30px;
+	line-height: 28px;
+	border-radius: 4px;
+	margin-top: 15px;
+}
+.a_stat_min:hover {
+    background: url("../images/str_ss.png") no-repeat scroll right 8px #E82A2C;
+	color: #fff;
+	text-decoration: none;
+}
+.ss_a1 {
+	padding-top: 20px;
+}
+.ss_a1 a {
+	background: url("../images/ss_vse_st.png") no-repeat;
+    color: #000;
+    display: block;
+    font-family: "Philosopher",sans-serif;
+    font-size: 24px;
+    height: 39px;
+    margin: 0 auto;
+    text-align: center;
+    width: 249px;
+	line-height: 38px;
+}
+.ss_a1 a:hover {
+	color: #E82A2C;
+	text-decoration: none;
+}
+/* end Большая статья +++++++++++++++++++++++++++++++++++++++++++++ */
+/* Мы устанавливаем натяжные потолки +++++++++++++++++++++++++++++++++++++ */
+.ust_nat_pot {
+	overflow: hidden;
+	width: 100%;
+	padding-bottom: 35px;
+	background: #fffed3;
+}
+.ust_nat_pot h3 {
+	margin: 20px 0 25px 0;
+}
+.mar_row1 {
+	margin-bottom: 7px;
+}
+.mar_row1 div {
+    text-align: center;
+	margin-bottom: 8px;
+}
+.ss_a6 {
+	padding-top: 35px;
+}
+.ss_a6 a {
+	background: #8b5a46;
+    color: #fff;
+    display: block;
+    font-family: "Philosopher",sans-serif;
+    font-size: 24px;
+    height: 38px;
+    text-align: center;
+    width: 310px;
+	margin: 0 auto;
+	line-height: 37px;
+	border-radius: 3px;
+}
+.ss_a6 a:hover {
+	background: #E82A2C;
+	text-decoration: none;
+}
+/* end Мы устанавливаем натяжные потолки +++++++++++++++++++++++++++++++++++++++++++ */
+/* Справка +++++++++++++++++++++++++++++++++++++++++++++ */
+.spravka {
+	overflow: hidden;
+	width: 100%;
+	padding-bottom: 75px;
+}
+.spravka h3 {
+	margin: 35px 0 40px 0;
+}
+.spravka_klas {
+    margin: 0;
+}
+.spravka_klas .spravka_tabl {
+    display: table;
+    margin: 0;
+	padding-bottom: 15px;
+}
+.img_sprav {
+	display: block;
+	float: left;
+	margin-right: 45px;
+	padding-left: 35px;
+}
+.sprav_p {
+	display: table-cell;
+	vertical-align: middle;
+}
+.sprav_p a {
+	color: #87939d;
+	text-decoration: underline;
+}
+.sprav_p a:hover {
+	color: #000;
+	text-decoration: none;
+}
+/* end Справка +++++++++++++++++++++++++++++++++++++++++++++ */
+/* Форма заказа +++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.forma_zakaza {
+ overflow: hidden;
+ width: 100%;
+ background: url("../images/forma_img.jpg") no-repeat center 0;
+ background-size: cover;
+ margin-bottom: 60px;
+}
+.forma_zakaza h3 {
+    background: url("../images/bg_zebra.png") repeat-x scroll 0 0;
+    margin: 0 -15px;
+    padding: 55px 0;
+}
+.forma_zakaza img {
+ float: right;
+ display: block;
+ padding-right: 15px;
+ padding-top: 10px;
+}
+.inp_name1 {
+ width: 100%;
+ height: 40px;
+ font-size: 16px;
+ margin-bottom: 20px;
+}
+.inp_tel1 {
+ width: 100%;
+ height: 40px;
+ font-size: 16px;
+ margin-bottom: 20px;
+}
+.butt_vz1 {
+ background: #e82a2c;
+ border-color: #e82a2c;
+    color: #fff;
+    font-size: 36px;
+    height: 80px;
+    text-transform: uppercase;
+    width: 100%;
+ font-family: 'Philosopher', sans-serif;
+ line-height: 36px;
+}
+.butt_vz1:hover {
+ background: #FFFED3;
+}
+.zakaz_bottom {
+    background: url("../images/bg_zebra.png") repeat-x scroll 0 bottom;
+	padding-bottom: 90px;
+}
+/* end Форма заказа ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* Футер меню ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.menu_footer {
+ overflow: hidden;
+ width: 100%;
+ border-top: 1px solid #b8c5cc;
+}
+.menu_footer1 {
+ margin-bottom: 0;
+    overflow: hidden;
+    padding-left: 0;
+}
+.menu_footer1 li {
+ float: left;
+ list-style: none;
+ padding: 4px 0;
+}
+.menu_footer1 a {
+ padding-right: 30px;
+ font-size: 16px;
+ color: #000;
+}
+/* end Футер меню ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* My footer ++++++++++++++++++++++++++++++++++++++++++++ */
+.my_footer {
+ overflow: hidden;
+ width: 100%;
+ border-top: 1px solid #b8c5cc;
+ padding-bottom: 15px;
+ position: relative;
+}
+.logoniz {
+ margin: 0 auto;
+ display: block;
+ padding-top: 10px;
+}
+.telef_niz {
+ font-size: 20px;
+ color: #8b5a46;
+ padding-top: 25px;
+ display: block;
+ line-height: 25px;
+ background: url("../images/pereg_footer.jpg") no-repeat right 25px;
+}
+.kontakt_niz {
+ font-size: 13px;
+ color: #8b5a46;
+ padding-top: 23px;
+ display: block;
+ line-height: 17px;
+}
+.custom_drsotc span {
+ font-size: 18px;
+ color: #5c6274;
+ font-weight: bold;
+ display: block;
+ padding-top: 15px;
+ text-align: center;
+}
+.vkontakte {
+ background: url("../images/vk.jpg") no-repeat;
+ display: block;
+ width: 50px;
+ height: 47px;
+ float: left;
+}
+.odnoklassniki {
+ background: url("../images/odnok.jpg") no-repeat;
+ display: block;
+ width: 50px;
+ height: 47px;
+ float: left;
+}
+.facebook {
+ background: url("../images/facebook.jpg") no-repeat;
+ display: block;
+ width: 50px;
+ height: 47px;
+ float: left;
+}
+.twitter {
+ background: url("../images/twiter.jpg") no-repeat;
+ display: block;
+ width: 50px;
+ height: 47px;
+ float: left;
+}
+.google {
+ background: url("../images/google.jpg") no-repeat;
+ display: block;
+ width: 50px;
+ height: 47px;
+ float: left;
+}
+.iconki {
+ width: 250px;
+ margin: 0 auto;
+}
+.my_copiright {
+ font-size: 14px;
+ color: #8b5a46;
+ padding-top: 45px;
+ line-height: 18px;
+}
+.my_copsp {
+ font-size: 12px;
+}
+.my_copsp a {
+ font-size: 12px;
+ color: #8b5a46;
+}
+.img_naverh {
+ margin: 0 auto;
+ padding-top: 15px;
+ display: block;
+}
+.footer8 {
+ margin-bottom: 5px;
+}
+.ast {
+
+}
+.vverh_a {
+    bottom: 16px;
+    display: block;
+    position: fixed;
+    right: 20px;
+}
+/* end My footer ++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* Media zaprosy ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+@media (min-width: 1200px) {
+/* velyki Monitory */	
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+/* malye Monitory */
+	.vr_m_p1 span {
+		font-size: 30px;
+	}
+	.top_ss1 {
+		background: none repeat scroll 0 0;
+		padding-left: 0;
+	}
+	/*.arg {
+		background: url("../images/foto_vzam.jpg") no-repeat scroll 0 center;
+		background-size: 60px auto;
+		padding-left: 68px;
+		padding-top: 8px;
+		width: 226px;
+	}*/
+	.navbar-header a.navbar-brand.glyphicon {
+		padding: 15px 8px;
+	}
+	.navbar-nav > li > a {
+		padding: 15px 8px;
+	}
+	.logoniz {
+		height: auto;
+		width: 140px;
+	}
+	.iconki a {
+		background-size: 42px auto;
+		width: 42px;
+	}
+	.iconki {
+		overflow: hidden;
+		width: 211px;
+	}
+	.my_copiright {
+		font-size: 12px;
+		padding-top: 22px;
+	}
+	
+}
+
+@media screen and (max-width: 1024px) {
+	.ssylki4 a {
+		margin-bottom: 5px;
+	}
+	.timer {
+		right: 60px;
+		top: 5px;
+	}
+	.telef_niz {
+		font-size: 16px;
+	}
+	.vverh_a {
+		right: 14px;
+	}
+	.telef_niz {
+		background: none repeat scroll 0 0;
+	}
+}	
+	
+@media screen and (min-width: 768px) {
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+/* Planshety */
+
+	.logo_top img {
+		width: 165px;
+		height: auto;
+		margin-top:4px;
+	}
+	.telephone1 p {
+		font-size: 20px;
+	}
+	.vr_m_p1 p {
+		font-size: 14px;
+	}
+	.vr_m_p1 span {
+		font-size: 26px;
+	}
+	
+	.top_ss1 {
+		/*background: url("../images/foto_vzam.jpg") no-repeat scroll 0 center;
+		background-size: 60px auto;
+		padding-left: 70px;*/
+	}
+	.arg {
+		background: url("../images/foto_vzam.jpg") no-repeat scroll 0 center;
+		background-size: 60px auto;
+		padding-left: 68px;
+		padding-top: 8px;
+		width: 226px;
+	}
+	.navbar-header a.navbar-brand.glyphicon {
+		padding: 15px 8px;
+	}
+	.navbar-nav > li > a {
+		padding: 15px 8px;
+	}
+	.my_footer div.row div.footer8 {
+		min-height: 82px;
+	}
+	
+}
+
+@media (max-width: 767px) {
+/* Telefony */
+	.logo_top {
+		margin-bottom:10px;
+	}
+	.arg {
+		background: url("../images/foto_vzam.jpg") no-repeat scroll 0 center;
+		background-size: 60px auto;
+		padding-left: 68px;
+		padding-top: 8px;
+		width: 226px;
+	}
+	.telephone, .vr_m_p {
+		text-align: center;
+		height: 70px;
+	}
+	.navbar-nav > li > a {
+		padding-bottom: 6px;
+		padding-top: 6px;
+	}
+	.navbar div ul.nav.navbar-nav li.dropdown ul.dropdown-menu li a {
+		padding: 1px 15px 1px 30px;
+	}
+	.navbar div ul.nav.navbar-nav li.dropdown ul.dropdown-menu li a:hover {
+		color: #F40017 !important;
+	}
+	.top_ss {
+		display: block;
+	}
+	.top_ss1 {
+		display: block;
+		margin: 0 auto;
+		width: 240px;
+	}
+	.timer {
+		background: none repeat scroll 0 0 rgba(0, 0, 0, 0.41);
+		border-radius: 0;
+		left: 0;
+		padding-bottom: 35px;
+		position: relative;
+		top: 1px;
+	}
+	.img_sprav {
+		margin-right: 12px;
+		padding-left: 0;
+	}
+	.spravka_klas .spravka_tabl {
+		padding: 0 0 35px;
+	}
+	.forma_zakaza img {
+		float: none;
+		margin: 0 auto 20px;
+		padding-right: 0px;
+		padding-top: 0px;
+	} 
+	.inp_name1, .inp_tel1 {
+		margin-bottom: 5px;
+	}
+	.telef_niz {
+		padding-top: 10px;
+		text-align: center;
+	}
+	.kontakt_niz {
+		padding-top: 7px;
+		text-align: center;
+	}
+	.custom_drsotc span {
+		padding-top: 8px;
+		text-align: center;
+	}
+	.ast {
+		text-align: center;
+	}
+	.top_ss1 {
+		background: url("../images/foto_vzam.jpg") no-repeat scroll 0 center;
+		background-size: 60px auto;
+		padding-left: 70px;
+	}
+
+}
+
+@media (max-width: 350px) {
+	body {
+		min-width: 320px;
+	}
+	.timer_wrap {
+		background-size: 280px auto;
+	}
+	.timer_wrap div p {
+		font-size: 32px;
+		line-height: 38px;
+		margin-right: 1px;
+		width: 28px;
+	}
+	.time_imya span {
+		font-size: 14px;
+	}
+	.ust_nat_pot div.row.mar_row1 div img {
+	    width: 100%;
+		height: auto;
+	}
+}
+/* end Media zaprosy ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+

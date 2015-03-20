@@ -1,0 +1,1593 @@
+
+/* Page
+-----------------------------------------------------------------------------*/
+
+.oll p.cufon {
+    color: #000000;
+    font-size: 18px;
+    font-family: CuprumFFURegular;
+    padding-top: 7px;
+}
+
+.custom div#room_color {
+    width: 466px;
+    height: 538px;
+    float: left;
+    position: relative;
+}
+
+.custom div#room_color img#laminat {
+    width: 466px;
+    height: 227px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: none;
+    z-index: 30;
+}
+
+.custom div#room_color img#carpeting {
+    width: 466px;
+    height: 227px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 30;
+}
+
+.custom div#room_color img#potolok {
+    width: 466px;
+    height: 262px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 30;
+}
+
+.custom div#room_color img#room_color_fon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 466px;
+    height: 538px;
+    z-index: 20;
+}
+
+img#ceiling {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 466px;
+    height: 538px;
+    z-index: 10;
+}
+
+.custom div#input_color {
+    font-family: CuprumFFURegular;
+    background: #f3f3f3;
+    height: 538px;
+    width: 217px;
+    float: left;
+    padding-left: 20px;
+}
+
+.custom div#input_color p.caption_group_color {
+    font-size: 16px;
+    color: #000000;
+    padding-top: 14px;
+    margin-bottom: 3px;
+}
+
+.custom div#input_color p.caption_group_color_dop {
+    margin-bottom: 8px;
+}
+
+.custom #room_color #wall {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 466px;
+    height: 185px;
+    background: #ffffff;
+    z-index: 5;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+}
+
+.custom #room_color #floor {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 466px;
+    height: 228px;
+    background: #ffffff;
+    z-index: 5;
+}
+
+.custom div#input_color p#wall_item {
+    font-size: 14px;
+    margin-bottom: 9px;
+}
+
+.custom div#input_color p#wall_item span {
+    font-size: 12px;
+    color: #665227;
+    cursor: pointer;
+    border-bottom: dashed 1px #665227;
+    margin-right: 12px;
+}
+
+.custom div#input_color p#wall_item span:hover {
+    border-bottom: none;
+}
+
+.custom div#input_color p#wall_item span.act {
+    font-size: 13px;
+    color: #000000;
+    border-bottom: none;
+    cursor: default;
+    font-weight: 700;
+}
+
+
+.custom div#input_color p#floor_item {
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.custom div#input_color p#floor_item span {
+    font-size: 12px;
+    color: #665227;
+    cursor: pointer;
+    border-bottom: dashed 1px #665227;
+    margin-right: 13px;
+}
+
+.custom div#input_color .input_color_wall span div {
+    background: url('../../../images/podbor_cveta/span_act_min.png') 0px 5px no-repeat;
+    width: 11px;
+    height: 18px;
+}
+
+.custom div#input_color .input_color_ceiling span div {
+    background: url('../../../images/podbor_cveta/span_act_min.png') 0px 5px no-repeat;
+    width: 11px;
+    height: 18px;
+}
+
+.custom div#input_color .input_color_floor span div {
+    background: url('../../../images/podbor_cveta/span_act_min.png') 0px 5px no-repeat;
+    width: 11px;
+    height: 18px;
+}
+
+.custom div#input_color p#floor_item span:hover {
+    border-bottom: none;
+}
+
+.custom div#input_color p#floor_item span.act {
+    font-size: 13px;
+    color: #000000;
+    border-bottom: none;
+    cursor: default;
+    font-weight: bold;
+}
+
+.custom div#input_color .input_color_floor #carpeting {
+    display: none;
+}
+
+.custom div#input_color .input_color_wall {
+    cursor: pointer;
+}
+
+.custom div#input_color .input_color_wall #mat {
+    display: none;
+}
+
+.custom div#input_color .input_color_wall #sateen {
+    display: none;
+}
+
+.custom div#input_color .input_color_wall span {
+    width: 11px;
+    height: 18px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 1px 1px 0px rgba(0,0,0,1); /* ��������� ���� */
+    -moz-box-shadow: 1px 1px 0px rgba(0,0,0,1); /* ��� Firefox */
+    -webkit-box-shadow: 1px 1px 0px rgba(0,0,0,1); /* ��� Safari � Chrome */
+    cursor: pointer;
+}
+
+.custom div#input_color .input_color_ceiling span {
+    width: 11px;
+    height: 18px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 1px 1px 0px rgba(0,0,0,1); /* ��������� ���� */
+    -moz-box-shadow: 1px 1px 0px rgba(0,0,0,1); /* ��� Firefox */
+    -webkit-box-shadow: 1px 1px 0px rgba(0,0,0,1); /* ��� Safari � Chrome */
+    cursor: pointer;
+}
+
+.custom div#input_color .input_color_ceiling {
+    cursor: pointer;
+}
+
+.custom div#input_color .input_color_floor {
+    cursor: pointer;
+}
+
+.custom div#input_color .input_color_floor span {
+    width: 11px;
+    height: 18px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 1px 1px 0px rgba(0,0,0,1); /* ��������� ���� */
+    -moz-box-shadow: 1px 1px 0px rgba(0,0,0,1); /* ��� Firefox */
+    -webkit-box-shadow: 1px 1px 0px rgba(0,0,0,1); /* ��� Safari � Chrome */
+    cursor: pointer;
+}
+
+
+.custom div#input_color .input_color_wall span._B1E4E8 {
+    background: #B1E4E8;
+}
+
+.custom div#input_color .input_color_wall span._CDD8EC {
+    background: #CDD8EC;
+}
+
+.custom div#input_color .input_color_wall span._A9BED9 {
+    background: #A9BED9;
+}
+
+.custom div#input_color .input_color_wall span._86A1CC {
+    background: #86A1CC;
+}
+
+.custom div#input_color .input_color_wall span._C7D6ED {
+    background: #C7D6ED;
+}
+
+.custom div#input_color .input_color_wall span._8AB7EE {
+    background: #8AB7EE;
+}
+
+.custom div#input_color .input_color_wall span._4E96C8 {
+    background: #4E96C8;
+}
+
+.custom div#input_color .input_color_wall span._1700AA {
+    background: #1700AA;
+}
+
+.custom div#input_color .input_color_wall span._90F02F {
+    background: #90F02F;
+}
+
+.custom div#input_color .input_color_wall span._CBCDF6 {
+    background: #CBCDF6;
+}
+
+.custom div#input_color .input_color_wall span._A4A1BE {
+    background: #A4A1BE;
+}
+
+.custom div#input_color .input_color_wall span._E85476 {
+    background: #E85476;
+}
+
+.custom div#input_color .input_color_wall span._A496D3 {
+    background: #A496D3;
+}
+
+.custom div#input_color .input_color_wall span._C3A3E6 {
+    background: #C3A3E6;
+}
+
+.custom div#input_color .input_color_wall span._91437F {
+    background: #91437F;
+}
+
+.custom div#input_color .input_color_wall span._A374BA {
+    background: #A374BA;
+}
+
+.custom div#input_color .input_color_wall span._971F4D {
+    background: #971F4D;
+}
+
+.custom div#input_color .input_color_wall span._2FD064 {
+    background: #2FD064;
+}
+
+.custom div#input_color .input_color_wall span._A71730 {
+    background: #A71730;
+}
+
+.custom div#input_color .input_color_wall span._FFFFFF {
+    background: #FFFFFF;
+}
+
+.custom div#input_color .input_color_wall span._DCDCDC {
+    background: #DCDCDC;
+}
+
+.custom div#input_color .input_color_wall span._EBDECD {
+    background: #EBDECD;
+}
+
+.custom div#input_color .input_color_wall span._D6D1CE {
+    background: #D6D1CE;
+}
+
+.custom div#input_color .input_color_wall span._CDCBCC {
+    background: #CDCBCC;
+}
+
+.custom div#input_color .input_color_wall span._B2B5C4 {
+    background: #B2B5C4;
+}
+
+.custom div#input_color .input_color_wall span._636476 {
+    background: #636476;
+}
+
+.custom div#input_color .input_color_wall span._B7AEAF {
+    background: #B7AEAF;
+}
+
+.custom div#input_color .input_color_wall span._8B8994 {
+    background: #8B8994;
+}
+
+.custom div#input_color .input_color_wall span._605A66 {
+    background: #605A66;
+}
+
+.custom div#input_color .input_color_wall span._000000 {
+    background: #000000;
+}
+
+.custom div#input_color .input_color_wall span._F9F1EF {
+    background: #F9F1EF;
+}
+
+.custom div#input_color .input_color_wall span._FDA6B6 {
+    background: #FDA6B6;
+}
+
+.custom div#input_color .input_color_wall span._F9EFEE {
+    background: #F9EFEE;
+}
+
+.custom div#input_color .input_color_wall span._E8B49E {
+    background: #E8B49E;
+}
+
+.custom div#input_color .input_color_wall span._E79693 {
+    background: #E79693;
+}
+
+.custom div#input_color .input_color_wall span._BB6159 {
+    background: #BB6159;
+}
+
+.custom div#input_color .input_color_wall span._FEE3E8 {
+    background: #FEE3E8;
+}
+
+.custom div#input_color .input_color_wall span._E69099 {
+    background: #E69099;
+}
+
+.custom div#input_color .input_color_wall span._E931D0 {
+    background: #E931D0;
+}
+
+.custom div#input_color .input_color_wall span._FECDBF {
+    background: #FECDBF;
+}
+
+.custom div#input_color .input_color_wall span._FD5971 {
+    background: #FD5971;
+}
+
+.custom div#input_color .input_color_wall span._FC5F94 {
+    background: #FC5F94;
+}
+
+.custom div#input_color .input_color_wall span._DA3263 {
+    background: #DA3263;
+}
+
+.custom div#input_color .input_color_wall span._E42270 {
+    background: #E42270;
+}
+
+.custom div#input_color .input_color_wall span._E11A50 {
+    background: #E11A50;
+}
+
+.custom div#input_color .input_color_wall span._B01938 {
+    background: #B01938;
+}
+
+.custom div#input_color .input_color_wall span._90F0A0 {
+    background: #90F0A0;
+}
+
+.custom div#input_color .input_color_wall span._5CA010 {
+    background: #5CA010;
+}
+
+.custom div#input_color .input_color_wall span._B1687C {
+    background: #B1687C;
+}
+
+.custom div#input_color .input_color_wall span._2C90D0 {
+    background: #2C90D0;
+}
+
+.custom div#input_color .input_color_wall span._7F5352 {
+    background: #7F5352;
+}
+
+.custom div#input_color .input_color_wall span._FAF3D7 {
+    background: #FAF3D7;
+}
+
+.custom div#input_color .input_color_wall span._FFFBCC {
+    background: #FFFBCC;
+}
+
+.custom div#input_color .input_color_wall span._E2BF97 {
+    background: #E2BF97;
+}
+
+.custom div#input_color .input_color_wall span._C7C0A3 {
+    background: #C7C0A3;
+}
+
+.custom div#input_color .input_color_wall span._BEAA8F {
+    background: #BEAA8F;
+}
+
+.custom div#input_color .input_color_wall span._FFFAE8 {
+    background: #FFFAE8;
+}
+
+.custom div#input_color .input_color_wall span._8E4B3B {
+    background: #8E4B3B;
+}
+
+.custom div#input_color .input_color_wall span._A55F2B {
+    background: #A55F2B;
+}
+
+.custom div#input_color .input_color_wall span._861E11 {
+    background: #861E11;
+}
+
+.custom div#input_color .input_color_wall span._521A19 {
+    background: #521A19;
+}
+
+.custom div#input_color .input_color_wall span._FEFEFF {
+    background: #FEFEFF;
+}
+
+.custom div#input_color .input_color_wall span._7D2B13 {
+    background: #7D2B13;
+}
+
+.custom div#input_color .input_color_wall span._1DD0D0 {
+    background: #1DD0D0;
+}
+
+.custom div#input_color .input_color_wall span._DFF9FA {
+    background: #DFF9FA;
+}
+
+.custom div#input_color .input_color_wall span._CDE9D2 {
+    background: #CDE9D2;
+}
+
+.custom div#input_color .input_color_wall span._92E1DE {
+    background: #92E1DE;
+}
+
+.custom div#input_color .input_color_wall span._93ADA0 {
+    background: #93ADA0;
+}
+
+.custom div#input_color .input_color_wall span._8C9D7D {
+    background: #8C9D7D;
+}
+
+.custom div#input_color .input_color_wall span._C2FFED {
+    background: #C2FFED;
+}
+
+.custom div#input_color .input_color_wall span._A19A42 {
+    background: #A19A42;
+}
+
+.custom div#input_color .input_color_wall span._66AEAB {
+    background: #66AEAB;
+}
+
+.custom div#input_color .input_color_wall span._178C7A {
+    background: #178C7A;
+}
+
+.custom div#input_color .input_color_wall span._3B95AF {
+    background: #3B95AF;
+}
+
+.custom div#input_color .input_color_wall span._11485D {
+    background: #11485D;
+}
+
+.custom div#input_color .input_color_wall span._1F6879 {
+    background: #1F6879;
+}
+
+.custom div#input_color .input_color_wall span._564F23 {
+    background: #564F23;
+}
+
+.custom div#input_color .input_color_wall span._CFF4D3 {
+    background: #CFF4D3;
+}
+
+.custom div#input_color .input_color_wall span._64BB48 {
+    background: #64BB48;
+}
+
+.custom div#input_color .input_color_wall span._ACD366 {
+    background: #ACD366;
+}
+
+.custom div#input_color .input_color_wall span._5A9E6B {
+    background: #5A9E6B;
+}
+
+.custom div#input_color .input_color_wall span._D1A356 {
+    background: #D1A356;
+}
+
+.custom div#input_color .input_color_wall span._269F4F {
+    background: #269F4F;
+}
+
+.custom div#input_color .input_color_wall span._A05F36 {
+    background: #A05F36;
+}
+
+.custom div#input_color .input_color_wall span._80513E {
+    background: #80513E;
+}
+
+.custom div#input_color .input_color_wall span._629993 {
+    background: #629993;
+}
+
+.custom div#input_color .input_color_wall span._FBEA8E {
+    background: #FBEA8E;
+}
+
+.custom div#input_color .input_color_wall span._FCE53D {
+    background: #FCE53D;
+}
+
+.custom div#input_color .input_color_wall span._FCD53A {
+    background: #FCD53A;
+}
+
+.custom div#input_color .input_color_wall span._FDED5C {
+    background: #FDED5C;
+}
+
+.custom div#input_color .input_color_wall span._FAA814 {
+    background: #FAA814;
+}
+
+.custom div#input_color .input_color_wall span._C17D12 {
+    background: #C17D12;
+}
+
+.custom div#input_color .input_color_wall span._FC7019 {
+    background: #FC7019;
+}
+
+.custom div#input_color .input_color_wall span._C3711D {
+    background: #C3711D;
+}
+
+.custom div#input_color .input_color_wall span._CC5610 {
+    background: #CC5610;
+}
+
+.custom div#input_color .input_color_wall span._E44740 {
+    background: #E44740;
+}
+
+.custom div#input_color .input_color_wall span._BC1100 {
+    background: #BC1100;
+}
+
+
+.custom div#input_color .input_color_wall span._EFE4D2 {
+    background: #EFE4D2;
+}
+
+.custom div#input_color .input_color_wall span._F0E5D3 {
+    background: #F0E5D3;
+}
+
+.custom div#input_color .input_color_wall span._F1DEBD {
+    background: #F1DEBD;
+}
+.custom div#input_color .input_color_wall span._6BB8FC {
+    background: #6BB8FC;
+}
+
+.custom div#input_color .input_color_wall span._FFFFFF {
+    background: #FFFFFF;
+}
+
+.custom div#input_color .input_color_wall span._FFFFED {
+    background: #FFFFED;
+}
+
+.custom div#input_color .input_color_wall span._8C918D {
+    background: #8C918D;
+}
+
+.custom div#input_color .input_color_wall span._FAB4CE {
+    background: #FAB4CE;
+}
+
+.custom div#input_color .input_color_wall span._FDE7B6 {
+    background: #FDE7B6;
+}
+
+.custom div#input_color .input_color_wall span._FECDAC {
+    background: #FECDAC;
+}
+
+.custom div#input_color .input_color_wall span._FEFEFE {
+    background: #FEFEFE;
+}
+
+.custom div#input_color .input_color_wall span._FEFFFA {
+    background: #FEFFFA;
+}
+
+.custom div#input_color .input_color_wall span._FFFFD1 {
+    background: #FFFFD1;
+}
+
+.custom div#input_color .input_color_wall span._FEF9E3 {
+    background: #FEF9E3;
+}
+
+.custom div#input_color .input_color_wall span._FFFDF6 {
+    background: #FFFDF6;
+}
+
+.custom div#input_color .input_color_wall span._FFFFEA {
+    background: #FFFFEA;
+}
+
+.custom div#input_color .input_color_wall span._72574C {
+    background: #72574C;
+}
+
+.custom div#input_color .input_color_wall span._E4FFD6 {
+    background: #E4FFD6;
+}
+
+.custom div#input_color .input_color_wall span._FDFF35 {
+    background: #FDFF35;
+}
+
+.custom div#input_color .input_color_wall span._FED570 {
+    background: #FED570;
+}
+
+.custom div#input_color .input_color_wall span._FFFFFF {
+    background: #FFFFFF;
+}
+
+.custom div#input_color .input_color_wall span._8C8A95 {
+    background: #8C8A95;
+}
+
+.custom div#input_color .input_color_wall span._F1DEBD {
+    background: #F1DEBD;
+}
+.custom div#input_color .input_color_wall span._DFE4F8 {
+    background: #DFE4F8;
+}
+
+.custom div#input_color .input_color_wall span._FEFEFE {
+    background: #FEFEFE;
+}
+
+.custom div#input_color .input_color_wall span._FAD7D1 {
+    background: #FAD7D1;
+}
+
+.custom div#input_color .input_color_wall span._FDFEF9 {
+    background: #FDFEF9;
+}
+
+.custom div#input_color .input_color_wall span._FEFFF1 {
+    background: #FEFFF1;
+}
+
+.custom div#input_color .input_color_wall span._FBECD5 {
+    background: #FBECD5;
+}
+
+.custom div#input_color .input_color_wall span._EEFEFE {
+    background: #EEFEFE;
+}
+
+.custom div#input_color .input_color_wall span._FEFEFE {
+    background: #FEFEFE;
+}
+
+.custom div#input_color .input_color_wall span._FDF7E7 {
+    background: #FDF7E7;
+}
+
+.custom div#input_color .input_color_wall span._FFFFDE {
+    background: #FFFFDE;
+}
+
+.custom div#input_color .input_color_wall span._FDFEF9 {
+    background: #FDFEF9;
+}
+
+.custom div#input_color .input_color_wall span._FEFFF1 {
+    background: #FEFFF1;
+}
+
+.custom div#input_color .input_color_wall span._FBECD5 {
+    background: #FBECD5;
+}
+
+.custom div#input_color .input_color_wall span._FFF4D5 {
+    background: #FFF4D5;
+}
+
+.custom div#input_color .input_color_wall span._EBE4D2 {
+    background: #EBE4D2;
+}
+
+.custom div#input_color .input_color_wall span._EFEDDE {
+    background: #EFEDDE;
+}
+
+.custom div#input_color .input_color_wall span._F0E0D3 {
+    background: #F0E0D3;
+}
+
+.custom div#input_color .input_color_wall span._ECCAA4 {
+    background: #ECCAA4;
+}
+
+.custom div#input_color .input_color_wall span._E3E9FF {
+    background: #E3E9FF;
+}
+
+.custom div#input_color .input_color_wall span._FFFFFF {
+    background: #FFFFFF;
+}
+
+.custom div#input_color .input_color_wall span._FDDBD1 {
+    background: #FDDBD1;
+}
+
+.custom div#input_color .input_color_wall span._FFFFFF {
+    background: #FFFFFF;
+}
+
+.custom div#input_color .input_color_wall span._FFFFF3 {
+    background: #FFFFF3;
+}
+
+.custom div#input_color .input_color_wall span._FEECD6 {
+    background: #FEECD6;
+}
+
+.custom div#input_color .input_color_wall span._F1FFFF {
+    background: #F1FFFF;
+}
+
+
+.custom div#input_color .input_color_wall span._B1E4E8 {
+    background: #B1E4E8;
+}
+
+.custom div#input_color .input_color_wall span._CDD8EC {
+    background: #CDD8EC;
+}
+
+.custom div#input_color .input_color_wall span._A9BED9 {
+    background: #A9BED9;
+}
+
+.custom div#input_color .input_color_wall span._86A1CC {
+    background: #86A1CC;
+}
+
+.custom div#input_color .input_color_wall span._C7D6ED {
+    background: #C7D6ED;
+}
+
+.custom div#input_color .input_color_wall span._8AB7EE {
+    background: #8AB7EE;
+}
+
+.custom div#input_color .input_color_wall span._4E96C8 {
+    background: #4E96C8;
+}
+
+.custom div#input_color .input_color_wall span._1700AA {
+    background: #1700AA;
+}
+
+.custom div#input_color .input_color_wall span._616AAF {
+    background: #616AAF;
+}
+
+.custom div#input_color .input_color_wall span._2E4CBA {
+    background: #2E4CBA;
+}
+
+.custom div#input_color .input_color_wall span._F01577 {
+    background: #F01577;
+}
+
+.custom div#input_color .input_color_wall span._A0E065 {
+    background: #A0E065;
+}
+
+.custom div#input_color .input_color_wall span._90F02F {
+    background: #90F02F;
+}
+
+.custom div#input_color .input_color_wall span._CBCDF6 {
+    background: #CBCDF6;
+}
+
+.custom div#input_color .input_color_wall span._A4A1BE {
+    background: #A4A1BE;
+}
+
+.custom div#input_color .input_color_wall span._E85476 {
+    background: #E85476;
+}
+
+.custom div#input_color .input_color_wall span._A496D3 {
+    background: #A496D3;
+}
+
+.custom div#input_color .input_color_wall span._C3A3E6 {
+    background: #C3A3E6;
+}
+
+.custom div#input_color .input_color_wall span._91437F {
+    background: #91437F;
+}
+
+.custom div#input_color .input_color_wall span._A374BA {
+    background: #A374BA;
+}
+
+.custom div#input_color .input_color_wall span._971F4D {
+    background: #971F4D;
+}
+
+.custom div#input_color .input_color_wall span._2FD064 {
+    background: #2FD064;
+}
+
+.custom div#input_color .input_color_wall span._A71730 {
+    background: #A71730;
+}
+
+.custom div#input_color .input_color_wall span._FFFFFF {
+    background: #FFFFFF;
+}
+
+.custom div#input_color .input_color_wall span._DCDCDC {
+    background: #DCDCDC;
+}
+
+.custom div#input_color .input_color_wall span._EBDECD {
+    background: #EBDECD;
+}
+
+.custom div#input_color .input_color_wall span._D6D1CE {
+    background: #D6D1CE;
+}
+
+.custom div#input_color .input_color_wall span._CDCBCC {
+    background: #CDCBCC;
+}
+
+.custom div#input_color .input_color_wall span._B2B5C4 {
+    background: #B2B5C4;
+}
+
+.custom div#input_color .input_color_wall span._636476 {
+    background: #636476;
+}
+
+.custom div#input_color .input_color_wall span._B7AEAF {
+    background: #B7AEAF;
+}
+
+.custom div#input_color .input_color_wall span._8B8994 {
+    background: #8B8994;
+}
+
+.custom div#input_color .input_color_wall span._605A66 {
+    background: #605A66;
+}
+
+.custom div#input_color .input_color_wall span._000000 {
+    background: #000000;
+}
+
+.custom div#input_color .input_color_wall span._F9F1EF {
+    background: #F9F1EF;
+}
+
+.custom div#input_color .input_color_wall span._FDA6B6 {
+    background: #FDA6B6;
+}
+
+.custom div#input_color .input_color_wall span._F9EFEE {
+    background: #F9EFEE;
+}
+
+.custom div#input_color .input_color_wall span._E8B49E {
+    background: #E8B49E;
+}
+
+.custom div#input_color .input_color_wall span._E79693 {
+    background: #E79693;
+}
+
+.custom div#input_color .input_color_wall span._BB6159 {
+    background: #BB6159;
+}
+
+.custom div#input_color .input_color_wall span._FEE3E8 {
+    background: #FEE3E8;
+}
+
+.custom div#input_color .input_color_wall span._E69099 {
+    background: #E69099;
+}
+
+.custom div#input_color .input_color_wall span._E931D0 {
+    background: #E931D0;
+}
+
+.custom div#input_color .input_color_wall span._FECDBF {
+    background: #FECDBF;
+}
+
+.custom div#input_color .input_color_wall span._FD5971 {
+    background: #FD5971;
+}
+
+.custom div#input_color .input_color_wall span._FC5F94 {
+    background: #FC5F94;
+}
+
+.custom div#input_color .input_color_wall span._DA3263 {
+    background: #DA3263;
+}
+
+.custom div#input_color .input_color_wall span._E42270 {
+    background: #E42270;
+}
+
+.custom div#input_color .input_color_wall span._E11A50 {
+    background: #E11A50;
+}
+
+.custom div#input_color .input_color_wall span._B01938 {
+    background: #B01938;
+}
+
+.custom div#input_color .input_color_wall span._90F0A0 {
+    background: #90F0A0;
+}
+
+.custom div#input_color .input_color_wall span._5CA010 {
+    background: #5CA010;
+}
+
+.custom div#input_color .input_color_wall span._B1687C {
+    background: #B1687C;
+}
+
+.custom div#input_color .input_color_wall span._2C90D0 {
+    background: #2C90D0;
+}
+
+.custom div#input_color .input_color_wall span._7F5352 {
+    background: #7F5352;
+}
+
+.custom div#input_color .input_color_wall span._FAF3D7 {
+    background: #FAF3D7;
+}
+
+.custom div#input_color .input_color_wall span._FFFBCC {
+    background: #FFFBCC;
+}
+
+.custom div#input_color .input_color_wall span._E2BF97 {
+    background: #E2BF97;
+}
+
+.custom div#input_color .input_color_wall span._C7C0A3 {
+    background: #C7C0A3;
+}
+
+.custom div#input_color .input_color_wall span._BEAA8F {
+    background: #BEAA8F;
+}
+
+.custom div#input_color .input_color_wall span._FFFAE8 {
+    background: #FFFAE8;
+}
+
+.custom div#input_color .input_color_wall span._8E4B3B {
+    background: #8E4B3B;
+}
+
+.custom div#input_color .input_color_wall span._A55F2B {
+    background: #A55F2B;
+}
+
+.custom div#input_color .input_color_wall span._861E11 {
+    background: #861E11;
+}
+
+.custom div#input_color .input_color_wall span._521A19 {
+    background: #521A19;
+}
+
+.custom div#input_color .input_color_wall span._FEFEFF {
+    background: #FEFEFF;
+}
+
+.custom div#input_color .input_color_wall span._7D2B13 {
+    background: #7D2B13;
+}
+
+.custom div#input_color .input_color_wall span._1DD0D0 {
+    background: #1DD0D0;
+}
+
+.custom div#input_color .input_color_wall span._DFF9FA {
+    background: #DFF9FA;
+}
+
+.custom div#input_color .input_color_wall span._CDE9D2 {
+    background: #CDE9D2;
+}
+
+.custom div#input_color .input_color_wall span._92E1DE {
+    background: #92E1DE;
+}
+
+.custom div#input_color .input_color_wall span._93ADA0 {
+    background: #93ADA0;
+}
+
+.custom div#input_color .input_color_wall span._8C9D7D {
+    background: #8C9D7D;
+}
+
+.custom div#input_color .input_color_wall span._C2FFED {
+    background: #C2FFED;
+}
+
+.custom div#input_color .input_color_wall span._A19A42 {
+    background: #A19A42;
+}
+
+.custom div#input_color .input_color_wall span._66AEAB {
+    background: #66AEAB;
+}
+
+.custom div#input_color .input_color_wall span._178C7A {
+    background: #178C7A;
+}
+
+.custom div#input_color .input_color_wall span._3B95AF {
+    background: #3B95AF;
+}
+
+.custom div#input_color .input_color_wall span._11485D {
+    background: #11485D;
+}
+
+.custom div#input_color .input_color_wall span._1F6879 {
+    background: #1F6879;
+}
+
+.custom div#input_color .input_color_wall span._564F23 {
+    background: #564F23;
+}
+
+.custom div#input_color .input_color_wall span._CFF4D3 {
+    background: #CFF4D3;
+}
+
+.custom div#input_color .input_color_wall span._64BB48 {
+    background: #64BB48;
+}
+
+.custom div#input_color .input_color_wall span._ACD366 {
+    background: #ACD366;
+}
+
+.custom div#input_color .input_color_wall span._5A9E6B {
+    background: #5A9E6B;
+}
+
+.custom div#input_color .input_color_wall span._D1A356 {
+    background: #D1A356;
+}
+
+.custom div#input_color .input_color_wall span._269F4F {
+    background: #269F4F;
+}
+
+.custom div#input_color .input_color_wall span._A05F36 {
+    background: #A05F36;
+}
+
+.custom div#input_color .input_color_wall span._80513E {
+    background: #80513E;
+}
+
+.custom div#input_color .input_color_wall span._629993 {
+    background: #629993;
+}
+
+.custom div#input_color .input_color_wall span._FBEA8E {
+    background: #FBEA8E;
+}
+
+.custom div#input_color .input_color_wall span._FCE53D {
+    background: #FCE53D;
+}
+
+.custom div#input_color .input_color_wall span._FCD53A {
+    background: #FCD53A;
+}
+
+.custom div#input_color .input_color_wall span._FDED5C {
+    background: #FDED5C;
+}
+
+.custom div#input_color .input_color_wall span._FAA814 {
+    background: #FAA814;
+}
+
+.custom div#input_color .input_color_wall span._C17D12 {
+    background: #C17D12;
+}
+
+.custom div#input_color .input_color_wall span._FC7019 {
+    background: #FC7019;
+}
+
+.custom div#input_color .input_color_wall span._C3711D {
+    background: #C3711D;
+}
+
+.custom div#input_color .input_color_wall span._CC5610 {
+    background: #CC5610;
+}
+
+.custom div#input_color .input_color_wall span._E44740 {
+    background: #E44740;
+}
+
+.custom div#input_color .input_color_wall span._BC1100 {
+    background: #BC1100;
+}
+
+
+
+
+
+.custom div#input_color .input_color_ceiling span._ffffff {
+    background: #ffffff url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._fee7e1 {
+    background: #fee7e1 url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._f2e1c7 {
+    background: #f2e1c7 url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._e5c28d {
+    background: #e5c28d url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._c29550 {
+    background: #c29550 url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._a7762a {
+    background: #a7762a url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._815613 {
+    background: #815613 url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._664108 {
+    background: #664108 url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._3b2400 {
+    background: #3b2400 url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._abe085 {
+    background: #abe085 url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._84c555 {
+    background: #84c555 url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._48821e {
+    background: #48821e url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._275406 {
+    background: #275406 url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._153001 {
+    background: #153001 url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._b0dff1 {
+    background: #b0dff1 url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._85c2da {
+    background: #85c2da url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._438ca9 {
+    background: #438ca9 url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._0c4b64 {
+    background: #0c4b64 url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._f2b0bc {
+    background: #f2b0bc url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._d46f82 {
+    background: #d46f82 url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._93192d {
+    background: #93192d url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._7c0a0a {
+    background: #7c0a0a url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._faf8c7 {
+    background: #faf8c7 url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._e4e193 {
+    background: #e4e193 url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._ddd84a {
+    background: #ddd84a url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._dfd81b {
+    background: #dfd81b url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._efe706 {
+    background: #efe706 url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_ceiling span._f5c57c {
+    background: #f5c57c url('../../../images/podbor_cveta/ceiling.gif') no-repeat;
+}
+
+
+.custom div#input_color .input_color_floor #laminate span._f0edde {
+    background: url('../../../images/podbor_cveta/f0edde.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #laminate span._4d240c {
+    background: #4d240c url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #laminate span._221710 {
+    background: #221710 url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #laminate span._ebdcc8 {
+    background: url('../../../images/podbor_cveta/ebdcc8.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #laminate span._e8cea2 {
+    background: url('../../../images/podbor_cveta/e8cea2.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #laminate span._e6c88e {
+    background: url('../../../images/podbor_cveta/e6c88e.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #laminate span._e0b166 {
+    background: url('../../../images/podbor_cveta/e0b166.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #laminate span._d89f3d {
+    background: url('../../../images/podbor_cveta/d89f3d.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #laminate span._cd863b {
+    background: url('../../../images/podbor_cveta/cd863b.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #laminate span._9f7117 {
+    background: url('../../../images/podbor_cveta/9f7117.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #laminate span._e6e6e6 {
+    background: url('../../../images/podbor_cveta/e6e6e6.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #laminate span._cbcbcb {
+    background: url('../../../images/podbor_cveta/cbcbcb.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #laminate span._b8b8b8 {
+    background: url('../../../images/podbor_cveta/b8b8b8.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #laminate span._9a9a9a {
+    background: url('../../../images/podbor_cveta/9a9a9a.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #laminate span._626262 {
+    background: url('../../../images/podbor_cveta/626262.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #laminate span._474747 {
+    background: url('../../../images/podbor_cveta/474747.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #laminate span._7e4f12 {
+    background: url('../../../images/podbor_cveta/7e4f12.gif') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #laminate span._747474 {
+    background: url('../../../images/podbor_cveta/747474.gif') no-repeat;
+}
+
+
+.custom div#input_color .input_color_floor #carpeting span._f0edde {
+    background: #f0edde url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._4d240c {
+    background: #4d240c url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._221710 {
+    background: #221710 url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._f4ece1 {
+    background: #f4ece1 url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._ebdcc8 {
+    background: #ebdcc8 url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._e8cea2 {
+    background: #e8cea2 url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._e6c88e {
+    background: #e6c88e url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._e0b166 {
+    background: #e0b166 url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._d89f3d {
+    background: #d89f3d url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._cd863b {
+    background: #cd863b url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._9f7117 {
+    background: #9f7117 url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._e6e6e6 {
+    background: #e6e6e6 url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._cbcbcb {
+    background: #cbcbcb url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._b8b8b8 {
+    background: #b8b8b8 url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._9a9a9a {
+    background: #9a9a9a url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._626262 {
+    background: #626262 url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._474747 {
+    background: #474747 url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._7e4f12 {
+    background: #7e4f12 url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._747474 {
+    background: #747474 url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._b0dff1 {
+    background: #b0dff1 url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._85c2da {
+    background: #85c2da url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._3d7f9a {
+    background: #3d7f9a url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._0b455d {
+    background: #0b455d url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._abe085 {
+    background: #abe085 url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._84c555 {
+    background: #84c555 url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom div#input_color .input_color_floor #carpeting span._48821e {
+    background: #48821e url('../../../images/podbor_cveta/carpeting.png') no-repeat;
+}
+
+.custom p#your_choice {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: CuprumFFURegular;
+    margin-top: 15px;
+    position: relative;
+    /*margin-bottom: 35px;*/
+    margin-left: 120px;
+    width: 464px;
+
+}
+
+.choosed {
+    text-align: center;
+    display: none;
+}
+
+.custom p#your_choice span.color_bottom_text_our_show {
+    color: #000000;
+}
+
+.custom p#your_choice span#color_bottom {
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    /*position: absolute;*/
+    margin-top: 5px;
+    top: -4px;
+    left: 116px;
+}
+
+.custom p#your_choice span.color_bottom_shadow {
+    box-shadow: 1px 1px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 1px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: 1px 1px 0px rgba(0,0,0,1);
+}
+
+.custom p#your_choice span#color_bottom_text {
+    margin-left: 5px;
+    font-size: 15px;
+    color: #000000;
+}
+
+.custom .measurement_dop {
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -ms-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    color: #1e426d;
+    background-color: #E4E4E4;
+    font-size: 16px;
+    font-weight: bold;
+    width: 233px;
+    padding: 14px 0px 13px 17px;
+    cursor: pointer;
+    display: none;
+}
+
+.custom .measurement_dop_hov {
+    color: #ffffff;
+    background-color: #1e426d;
+}
+
+.custom #measurement_dop_bottom {
+    height: 45px;
+}
+
+#fixed_footer {
+    background-color: rgba(24,66,118,0.9);
+    position: fixed;
+    width: 100%;
+    height: 63px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1000;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.63);
+    -moz-box-shadow: 1px 1px 20px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 1px 1px 20px rgba(0,0,0,0.63);
+}
